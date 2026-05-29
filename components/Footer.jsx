@@ -49,17 +49,14 @@ const Footer = () => {
               <li><a href="#temoignages" className="link-underline">Témoignages</a></li>
             </ul>
           </div>
-          <div className="lg:col-span-1">
-            <div className="overline mb-5">Informations pratiques</div>
+          <div className="lg:col-span-2">
+            <div className="overline mb-5">Informations</div>
             <ul className="space-y-3 text-sm text-white/65 font-light">
               <li>Carte Vitale acceptée</li>
-              <li>Chèques · Espèces · Carte bancaire</li>
-            </ul>
-          </div>
-          <div className="lg:col-span-1">
-            <div className="overline mb-5">Plus</div>
-            <ul className="space-y-3 text-sm text-white/65">
-              <li><Link href="/admin/login" className="link-underline" data-testid="footer-admin-link">Admin</Link></li>
+              <li>Chèques · Espèces · CB</li>
+              <li className="pt-2 border-t border-white/10">
+                <Link href="/admin/login" className="link-underline" data-testid="footer-admin-link">Admin</Link>
+              </li>
               <li>
                 <a href="https://www.instagram.com/drjosephdardas/" target="_blank" rel="noopener noreferrer" className="link-underline">
                   Instagram
