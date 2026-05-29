@@ -25,6 +25,10 @@ export async function POST(req) {
       return NextResponse.json({ url: blob.url });
     }
 
+    if (process.env.VERCEL) {
+      return NextResponse.json({ error: "BLOB_READ_WRITE_TOKEN manquant — configurez-le dans Vercel → Storage → Blob" }, { status: 500 });
+    }
+
     const bytes = await file.arrayBuffer();
     const buffer = Buffer.from(bytes);
     const ext = file.name.split(".").pop() || "jpg";
