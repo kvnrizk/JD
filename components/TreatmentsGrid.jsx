@@ -28,7 +28,7 @@ const treatments = [
     num: "IV",
     title: "Orthopédie dento-faciale",
     body: "Traitement global de l'harmonie faciale — équilibre squelettique, occlusion et esthétique réunis dans un protocole unique.",
-    photo: "https://images.unsplash.com/photo-1667133295308-9ef24f71952e?auto=format&fit=crop&w=700&q=80",
+    photo: "https://dranniemiron.com/wp-content/uploads/2023/06/expansion-palatine-video.jpg",
     position: "50% 20%",
   },
   {
@@ -40,10 +40,10 @@ const treatments = [
   },
   {
     num: "VI",
-    title: "Diagnostic 3D iTero",
-    body: "Scan numérique iTero, modélisation prédictive et visualisation du résultat final avant le premier rendez-vous de traitement.",
-    photo: "https://images.unsplash.com/photo-1667133295311-e6911e6e22db?auto=format&fit=crop&w=700&q=80",
-    position: "50% 30%",
+    title: "Radiographie dentaire",
+    body: "Imagerie panoramique et rétro-alvéolaire de précision pour un diagnostic complet — détection précoce, planification chirurgicale et suivi rigoureux de chaque traitement.",
+    photo: "https://www.radiologie-saint-etienne.fr/wp-content/uploads/2023/10/panoramique-dentaire.jpg",
+    position: "50% 25%",
   },
 ];
 
